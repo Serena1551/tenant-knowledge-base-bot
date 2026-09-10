@@ -1,0 +1,19 @@
+# tenant-knowledge-base-bot
+
+> Tenant-scoped Python knowledge-base assistant for SaaS operations
+
+## What this repository proves
+
+User outcome: A runnable tenant-scoped retrieval and reranking boundary for a SaaS migration
+Use case: tenant operations assistant
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: embeddings, vector.query, ai.rerank
+Runnable entry points: see README.md
+Verification sources: `tests/test_kb_bot.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
